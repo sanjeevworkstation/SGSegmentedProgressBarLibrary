@@ -115,3 +115,9 @@ RESET
 ```
 self.segmentBar?.reset()
 ```
+
+SET PROGRESS MANUALLY OF SEGMENTED PROGRESS BAR
+
+```
+self.segmentBar?.setProgressManually(index: 0, progressPercentage: 40)
+```
