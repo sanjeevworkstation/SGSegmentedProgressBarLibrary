@@ -1,6 +1,8 @@
 # SGSegmentedProgressBarLibrary
 SGSegmentedProgressBarLibrary By Custom UIView
 
+<a><img src="https://github.com/sanjeevworkstation/SGImages/blob/master/Segmented%20Progress%20Bar.png" title="Segented Progress Bar" /></a>
+
 # How to use:
 
 Declaration
