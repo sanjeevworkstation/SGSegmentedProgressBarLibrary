@@ -54,13 +54,13 @@ extension ViewController: SGSegmentedProgressBarDelegate, SGSegmentedProgressBar
 
 ## Properties:
 
-// GET PAUSE STATE
+GET PAUSE STATE
 
 ```
 let isPaused = self.segmentBar?.isPaused
 ```
 
-// CURRENT SEGMENT INDEX
+CURRENT SEGMENT INDEX
 
 ```
 let currentPlayingIndex = self.segmentBar?.currentIndex
@@ -68,49 +68,49 @@ let currentPlayingIndex = self.segmentBar?.currentIndex
 
 ## Actions:
 
-// START
+START
 
 ```
 self.segmentBar?.start()
 ```
 
-// PAUSE
+PAUSE
 
 ```
 self.segmentBar?.pause()
 ```
 
-// RESUME
+RESUME
 
 ```
 self.segmentBar?.resume()
 ```
 
-// PLAY NEXT
+PLAY NEXT
 
 ```
 self.segmentBar?.nextSegment()
 ```
 
-// PLAY PREVIOUS
+PLAY PREVIOUS
 
 ```
 self.segmentBar?.previousSegment()
 ```
 
-// RESTART
+RESTART
 
 ```
 self.segmentBar?.restart()
 ```
 
-// RESTART CURRENT
+RESTART CURRENT
 
 ```
 self.segmentBar?.restartCurrentSegment()
 ```
 
-// RESET
+RESET
 
 ```
 self.segmentBar?.reset()
