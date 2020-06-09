@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91A41F85248F43AF00E9288E /* SGSegmentedProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A41F83248F43A700E9288E /* SGSegmentedProgressBar.framework */; };
+		91A41F86248F43AF00E9288E /* SGSegmentedProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91A41F83248F43A700E9288E /* SGSegmentedProgressBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91B39539247E7C550005A55B /* SGSegmentedProgressBarLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B39537247E7C550005A55B /* SGSegmentedProgressBarLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91BFF0CC2480DDD400F8825F /* SGSegmentedProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BFF0CA2480DDCE00F8825F /* SGSegmentedProgressBar.framework */; };
-		91BFF0CD2480DDD400F8825F /* SGSegmentedProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91BFF0CA2480DDCE00F8825F /* SGSegmentedProgressBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +19,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				91BFF0CD2480DDD400F8825F /* SGSegmentedProgressBar.framework in Embed Frameworks */,
+				91A41F86248F43AF00E9288E /* SGSegmentedProgressBar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -27,10 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		91A41F83248F43A700E9288E /* SGSegmentedProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGSegmentedProgressBar.framework; sourceTree = "<group>"; };
 		91B39534247E7C550005A55B /* SGSegmentedProgressBarLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSegmentedProgressBarLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B39537247E7C550005A55B /* SGSegmentedProgressBarLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSegmentedProgressBarLibrary.h; sourceTree = "<group>"; };
 		91B39538247E7C550005A55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91BFF0CA2480DDCE00F8825F /* SGSegmentedProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGSegmentedProgressBar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91BFF0CC2480DDD400F8825F /* SGSegmentedProgressBar.framework in Frameworks */,
+				91A41F85248F43AF00E9288E /* SGSegmentedProgressBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				91B39537247E7C550005A55B /* SGSegmentedProgressBarLibrary.h */,
-				91BFF0CA2480DDCE00F8825F /* SGSegmentedProgressBar.framework */,
+				91A41F83248F43A700E9288E /* SGSegmentedProgressBar.framework */,
 				91B39538247E7C550005A55B /* Info.plist */,
 			);
 			path = SGSegmentedProgressBarLibrary;
@@ -297,7 +297,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.2;
+				MARKETING_VERSION = 0.0.3;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = SG.SGSegmentedProgressBarLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -327,7 +327,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.2;
+				MARKETING_VERSION = 0.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = SG.SGSegmentedProgressBarLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
