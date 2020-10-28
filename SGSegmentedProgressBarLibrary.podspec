@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
    spec.name          = "SGSegmentedProgressBarLibrary"
 
-  spec.version        = "0.0.4"
+  spec.version        = "0.0.5"
 
   spec.summary        = "a segmented progress bar"
 
@@ -15,12 +15,11 @@ Pod::Spec.new do |spec|
   spec.author         = { "Sanjeev Gautam" => "sanjeevworkstation@gmail.com" }
 
   spec.platform       = :ios, "9.0"
+
   spec.swift_version  = '4.2'
 
-  spec.source         = { :git => "https://github.com/sanjeevworkstation/SGSegmentedProgressBarLibrary.git", :tag => '0.0.4' }
+  spec.source         = { :git => "https://github.com/sanjeevworkstation/SGSegmentedProgressBarHost.git", :tag => '0.0.5' }
 
-  #spec.source_files   = "SGSegmentedProgressViewLibrary/SGSegmentedProgressViewLibrary/**/*.{swift}"
-
-  spec.vendored_frameworks = 'SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/SGSegmentedProgressBar.framework'
+  spec.vendored_frameworks = 'SGSegmentedProgressBarFramework.xcframework'
 
 end
