@@ -1,0 +1,11 @@
+framework module SGSegmentedProgressBar {
+  umbrella header "SGSegmentedProgressBar.h"
+
+  export *
+  module * { export * }
+}
+
+module SGSegmentedProgressBar.Swift {
+    header "SGSegmentedProgressBar-Swift.h"
+    requires objc
+}

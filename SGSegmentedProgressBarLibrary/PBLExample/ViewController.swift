@@ -1,12 +1,12 @@
 //
 //  ViewController.swift
-//  Example
+//  PBLExample
 //
-//  Created by Sanjeev Gautam on 05/10/20.
-//  Copyright © 2020 SG. All rights reserved.
+//  Created by Sanjeev Gautam on 27/10/20.
 //
 
 import UIKit
+import SGSegmentedProgressBar
 
 class ViewController: UIViewController {
 

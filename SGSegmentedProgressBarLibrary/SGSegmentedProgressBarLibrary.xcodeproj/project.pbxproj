@@ -3,27 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91B1BF1F252AE6F6000B763B /* SGSegmentedProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B1BF1E252AE6F6000B763B /* SGSegmentedProgressBar.framework */; };
-		91B1BF27252AE784000B763B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1BF26252AE784000B763B /* AppDelegate.swift */; };
-		91B1BF29252AE784000B763B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1BF28252AE784000B763B /* SceneDelegate.swift */; };
-		91B1BF2B252AE784000B763B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1BF2A252AE784000B763B /* ViewController.swift */; };
-		91B1BF2E252AE784000B763B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B1BF2C252AE784000B763B /* Main.storyboard */; };
-		91B1BF30252AE787000B763B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B1BF2F252AE787000B763B /* Assets.xcassets */; };
-		91B1BF33252AE787000B763B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B1BF31252AE787000B763B /* LaunchScreen.storyboard */; };
-		91B39539247E7C550005A55B /* SGSegmentedProgressBarLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B39537247E7C550005A55B /* SGSegmentedProgressBarLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919FF67E2548490100727241 /* SGSegmentedProgressBarLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 919FF67C2548490100727241 /* SGSegmentedProgressBarLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919FF6882548492300727241 /* SGSegmentedProgressBar.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919FF6852548491F00727241 /* SGSegmentedProgressBar.xcframework */; };
+		919FF6892548492300727241 /* SGSegmentedProgressBar.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 919FF6852548491F00727241 /* SGSegmentedProgressBar.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		919FF6922548494E00727241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919FF6912548494E00727241 /* AppDelegate.swift */; };
+		919FF6942548494E00727241 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919FF6932548494E00727241 /* SceneDelegate.swift */; };
+		919FF6962548494E00727241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919FF6952548494E00727241 /* ViewController.swift */; };
+		919FF6992548494E00727241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919FF6972548494E00727241 /* Main.storyboard */; };
+		919FF69B2548495300727241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919FF69A2548495300727241 /* Assets.xcassets */; };
+		919FF69E2548495300727241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919FF69C2548495300727241 /* LaunchScreen.storyboard */; };
+		91CAFC0B25484A7800845987 /* SGSegmentedProgressBar.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919FF6852548491F00727241 /* SGSegmentedProgressBar.xcframework */; };
+		91CAFC0C25484A7800845987 /* SGSegmentedProgressBar.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 919FF6852548491F00727241 /* SGSegmentedProgressBar.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		91B39543247E7CAD0005A55B /* Embed Frameworks */ = {
+		919FF68A2548492300727241 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				919FF6892548492300727241 /* SGSegmentedProgressBar.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CAFC0A254849DA00845987 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91CAFC0C25484A7800845987 /* SGSegmentedProgressBar.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,121 +46,113 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		91B1BF1E252AE6F6000B763B /* SGSegmentedProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = SGSegmentedProgressBar.framework; sourceTree = "<group>"; };
-		91B1BF24252AE784000B763B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B1BF26252AE784000B763B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91B1BF28252AE784000B763B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91B1BF2A252AE784000B763B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91B1BF2D252AE784000B763B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91B1BF2F252AE787000B763B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91B1BF32252AE787000B763B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		91B1BF34252AE787000B763B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91B39534247E7C550005A55B /* SGSegmentedProgressBarLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSegmentedProgressBarLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B39537247E7C550005A55B /* SGSegmentedProgressBarLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSegmentedProgressBarLibrary.h; sourceTree = "<group>"; };
-		91B39538247E7C550005A55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919FF6792548490100727241 /* SGSegmentedProgressBarLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSegmentedProgressBarLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		919FF67C2548490100727241 /* SGSegmentedProgressBarLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSegmentedProgressBarLibrary.h; sourceTree = "<group>"; };
+		919FF67D2548490100727241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919FF6852548491F00727241 /* SGSegmentedProgressBar.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SGSegmentedProgressBar.xcframework; sourceTree = "<group>"; };
+		919FF68F2548494E00727241 /* PBLExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBLExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919FF6912548494E00727241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919FF6932548494E00727241 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		919FF6952548494E00727241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		919FF6982548494E00727241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919FF69A2548495300727241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919FF69D2548495300727241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919FF69F2548495400727241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91B1BF21252AE784000B763B /* Frameworks */ = {
+		919FF6762548490100727241 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919FF6882548492300727241 /* SGSegmentedProgressBar.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91B39531247E7C550005A55B /* Frameworks */ = {
+		919FF68C2548494E00727241 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B1BF1F252AE6F6000B763B /* SGSegmentedProgressBar.framework in Frameworks */,
+				91CAFC0B25484A7800845987 /* SGSegmentedProgressBar.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		91B1BF25252AE784000B763B /* Example */ = {
+		919FF66F2548490100727241 = {
 			isa = PBXGroup;
 			children = (
-				91B1BF26252AE784000B763B /* AppDelegate.swift */,
-				91B1BF28252AE784000B763B /* SceneDelegate.swift */,
-				91B1BF2A252AE784000B763B /* ViewController.swift */,
-				91B1BF2C252AE784000B763B /* Main.storyboard */,
-				91B1BF2F252AE787000B763B /* Assets.xcassets */,
-				91B1BF31252AE787000B763B /* LaunchScreen.storyboard */,
-				91B1BF34252AE787000B763B /* Info.plist */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		91B3952A247E7C550005A55B = {
-			isa = PBXGroup;
-			children = (
-				91B39536247E7C550005A55B /* SGSegmentedProgressBarLibrary */,
-				91B1BF25252AE784000B763B /* Example */,
-				91B39535247E7C550005A55B /* Products */,
+				919FF67B2548490100727241 /* SGSegmentedProgressBarLibrary */,
+				919FF6902548494E00727241 /* PBLExample */,
+				919FF67A2548490100727241 /* Products */,
+				91CAFC05254849DA00845987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		91B39535247E7C550005A55B /* Products */ = {
+		919FF67A2548490100727241 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91B39534247E7C550005A55B /* SGSegmentedProgressBarLibrary.framework */,
-				91B1BF24252AE784000B763B /* Example.app */,
+				919FF6792548490100727241 /* SGSegmentedProgressBarLibrary.framework */,
+				919FF68F2548494E00727241 /* PBLExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91B39536247E7C550005A55B /* SGSegmentedProgressBarLibrary */ = {
+		919FF67B2548490100727241 /* SGSegmentedProgressBarLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				91B39537247E7C550005A55B /* SGSegmentedProgressBarLibrary.h */,
-				91B1BF1E252AE6F6000B763B /* SGSegmentedProgressBar.framework */,
-				91B39538247E7C550005A55B /* Info.plist */,
+				919FF6852548491F00727241 /* SGSegmentedProgressBar.xcframework */,
+				919FF67C2548490100727241 /* SGSegmentedProgressBarLibrary.h */,
+				919FF67D2548490100727241 /* Info.plist */,
 			);
 			path = SGSegmentedProgressBarLibrary;
+			sourceTree = "<group>";
+		};
+		919FF6902548494E00727241 /* PBLExample */ = {
+			isa = PBXGroup;
+			children = (
+				919FF6912548494E00727241 /* AppDelegate.swift */,
+				919FF6932548494E00727241 /* SceneDelegate.swift */,
+				919FF6952548494E00727241 /* ViewController.swift */,
+				919FF6972548494E00727241 /* Main.storyboard */,
+				919FF69A2548495300727241 /* Assets.xcassets */,
+				919FF69C2548495300727241 /* LaunchScreen.storyboard */,
+				919FF69F2548495400727241 /* Info.plist */,
+			);
+			path = PBLExample;
+			sourceTree = "<group>";
+		};
+		91CAFC05254849DA00845987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		91B3952F247E7C550005A55B /* Headers */ = {
+		919FF6742548490100727241 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B39539247E7C550005A55B /* SGSegmentedProgressBarLibrary.h in Headers */,
+				919FF67E2548490100727241 /* SGSegmentedProgressBarLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		91B1BF23252AE784000B763B /* Example */ = {
+		919FF6782548490100727241 /* SGSegmentedProgressBarLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91B1BF35252AE787000B763B /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 919FF6812548490100727241 /* Build configuration list for PBXNativeTarget "SGSegmentedProgressBarLibrary" */;
 			buildPhases = (
-				91B1BF20252AE784000B763B /* Sources */,
-				91B1BF21252AE784000B763B /* Frameworks */,
-				91B1BF22252AE784000B763B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Example;
-			productName = Example;
-			productReference = 91B1BF24252AE784000B763B /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
-		91B39533247E7C550005A55B /* SGSegmentedProgressBarLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91B3953C247E7C550005A55B /* Build configuration list for PBXNativeTarget "SGSegmentedProgressBarLibrary" */;
-			buildPhases = (
-				91B3952F247E7C550005A55B /* Headers */,
-				91B39530247E7C550005A55B /* Sources */,
-				91B39531247E7C550005A55B /* Frameworks */,
-				91B39532247E7C550005A55B /* Resources */,
-				91B39543247E7CAD0005A55B /* Embed Frameworks */,
+				919FF6742548490100727241 /* Headers */,
+				919FF6752548490100727241 /* Sources */,
+				919FF6762548490100727241 /* Frameworks */,
+				919FF6772548490100727241 /* Resources */,
+				919FF68A2548492300727241 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,28 +160,45 @@
 			);
 			name = SGSegmentedProgressBarLibrary;
 			productName = SGSegmentedProgressBarLibrary;
-			productReference = 91B39534247E7C550005A55B /* SGSegmentedProgressBarLibrary.framework */;
+			productReference = 919FF6792548490100727241 /* SGSegmentedProgressBarLibrary.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		919FF68E2548494E00727241 /* PBLExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919FF6A02548495400727241 /* Build configuration list for PBXNativeTarget "PBLExample" */;
+			buildPhases = (
+				919FF68B2548494E00727241 /* Sources */,
+				919FF68C2548494E00727241 /* Frameworks */,
+				919FF68D2548494E00727241 /* Resources */,
+				91CAFC0A254849DA00845987 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBLExample;
+			productName = PBLExample;
+			productReference = 919FF68F2548494E00727241 /* PBLExample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		91B3952B247E7C550005A55B /* Project object */ = {
+		919FF6702548490100727241 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = SG;
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					91B1BF23252AE784000B763B = {
-						CreatedOnToolsVersion = 12.0.1;
+					919FF6782548490100727241 = {
+						CreatedOnToolsVersion = 12.1;
 					};
-					91B39533247E7C550005A55B = {
-						CreatedOnToolsVersion = 11.2.1;
+					919FF68E2548494E00727241 = {
+						CreatedOnToolsVersion = 12.1;
 					};
 				};
 			};
-			buildConfigurationList = 91B3952E247E7C550005A55B /* Build configuration list for PBXProject "SGSegmentedProgressBarLibrary" */;
+			buildConfigurationList = 919FF6732548490100727241 /* Build configuration list for PBXProject "SGSegmentedProgressBarLibrary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -182,70 +206,70 @@
 				en,
 				Base,
 			);
-			mainGroup = 91B3952A247E7C550005A55B;
-			productRefGroup = 91B39535247E7C550005A55B /* Products */;
+			mainGroup = 919FF66F2548490100727241;
+			productRefGroup = 919FF67A2548490100727241 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91B39533247E7C550005A55B /* SGSegmentedProgressBarLibrary */,
-				91B1BF23252AE784000B763B /* Example */,
+				919FF6782548490100727241 /* SGSegmentedProgressBarLibrary */,
+				919FF68E2548494E00727241 /* PBLExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		91B1BF22252AE784000B763B /* Resources */ = {
+		919FF6772548490100727241 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B1BF33252AE787000B763B /* LaunchScreen.storyboard in Resources */,
-				91B1BF30252AE787000B763B /* Assets.xcassets in Resources */,
-				91B1BF2E252AE784000B763B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91B39532247E7C550005A55B /* Resources */ = {
+		919FF68D2548494E00727241 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919FF69E2548495300727241 /* LaunchScreen.storyboard in Resources */,
+				919FF69B2548495300727241 /* Assets.xcassets in Resources */,
+				919FF6992548494E00727241 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		91B1BF20252AE784000B763B /* Sources */ = {
+		919FF6752548490100727241 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B1BF2B252AE784000B763B /* ViewController.swift in Sources */,
-				91B1BF27252AE784000B763B /* AppDelegate.swift in Sources */,
-				91B1BF29252AE784000B763B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91B39530247E7C550005A55B /* Sources */ = {
+		919FF68B2548494E00727241 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919FF6962548494E00727241 /* ViewController.swift in Sources */,
+				919FF6922548494E00727241 /* AppDelegate.swift in Sources */,
+				919FF6942548494E00727241 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		91B1BF2C252AE784000B763B /* Main.storyboard */ = {
+		919FF6972548494E00727241 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				91B1BF2D252AE784000B763B /* Base */,
+				919FF6982548494E00727241 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		91B1BF31252AE787000B763B /* LaunchScreen.storyboard */ = {
+		919FF69C2548495300727241 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				91B1BF32252AE787000B763B /* Base */,
+				919FF69D2548495300727241 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -253,47 +277,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		91B1BF36252AE787000B763B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SWS.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		91B1BF37252AE787000B763B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SWS.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		91B3953A247E7C550005A55B /* Debug */ = {
+		919FF67F2548490100727241 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,6 +303,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -344,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -356,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		91B3953B247E7C550005A55B /* Release */ = {
+		919FF6802548490100727241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,6 +367,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -401,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -413,18 +399,15 @@
 			};
 			name = Release;
 		};
-		91B3953D247E7C550005A55B /* Debug */ = {
+		919FF6822548490100727241 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SGSegmentedProgressBarLibrary",
-				);
 				INFOPLIST_FILE = SGSegmentedProgressBarLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -433,32 +416,25 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SGSegmentedProgressBarLibrary",
-				);
-				MARKETING_VERSION = 0.0.4;
-				ONLY_ACTIVE_ARCH = NO;
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = SG.SGSegmentedProgressBarLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		91B3953E247E7C550005A55B /* Release */ = {
+		919FF6832548490100727241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SGSegmentedProgressBarLibrary",
-				);
 				INFOPLIST_FILE = SGSegmentedProgressBarLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -467,14 +443,53 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SGSegmentedProgressBarLibrary",
-				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = SG.SGSegmentedProgressBarLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		919FF6A12548495400727241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN27CB9DQ2;
+				INFOPLIST_FILE = PBLExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SG.PBLExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919FF6A22548495400727241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN27CB9DQ2;
+				INFOPLIST_FILE = PBLExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SG.PBLExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,34 +498,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91B1BF35252AE787000B763B /* Build configuration list for PBXNativeTarget "Example" */ = {
+		919FF6732548490100727241 /* Build configuration list for PBXProject "SGSegmentedProgressBarLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91B1BF36252AE787000B763B /* Debug */,
-				91B1BF37252AE787000B763B /* Release */,
+				919FF67F2548490100727241 /* Debug */,
+				919FF6802548490100727241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B3952E247E7C550005A55B /* Build configuration list for PBXProject "SGSegmentedProgressBarLibrary" */ = {
+		919FF6812548490100727241 /* Build configuration list for PBXNativeTarget "SGSegmentedProgressBarLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91B3953A247E7C550005A55B /* Debug */,
-				91B3953B247E7C550005A55B /* Release */,
+				919FF6822548490100727241 /* Debug */,
+				919FF6832548490100727241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B3953C247E7C550005A55B /* Build configuration list for PBXNativeTarget "SGSegmentedProgressBarLibrary" */ = {
+		919FF6A02548495400727241 /* Build configuration list for PBXNativeTarget "PBLExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91B3953D247E7C550005A55B /* Debug */,
-				91B3953E247E7C550005A55B /* Release */,
+				919FF6A12548495400727241 /* Debug */,
+				919FF6A22548495400727241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 91B3952B247E7C550005A55B /* Project object */;
+	rootObject = 919FF6702548490100727241 /* Project object */;
 }
