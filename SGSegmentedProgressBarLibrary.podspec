@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "Sanjeev Gautam" => "sanjeevworkstation@gmail.com" }
-    s.source       = { :git => "https://github.com/sanjeevworkstation/SGSegmentedProgressBarHost.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/sanjeevworkstation/SGSegmentedProgressBarLibrary.git", :tag => "#{s.version}" }
     s.source_files = "SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/**/*.{swift}"
     s.platform = :ios
     s.swift_version = "4.2"
